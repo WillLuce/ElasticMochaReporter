@@ -1,0 +1,30 @@
+{
+  "name": "elasticmochareporter",
+  "version": "1.0.0",
+  "description": "Send mocha test results to elasticsearch",
+  "main": "elasticmochareporter.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillLuce/elasticmocha.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "mocha"
+  ],
+  "author": "William Luce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WillLuce/elasticmocha/issues"
+  },
+  "homepage": "https://github.com/WillLuce/elasticmocha#readme",
+  "dependencies": {
+    "elasticsearch": "^11.0.1",
+    "mocha": "^2.5.3",
+    "promise": "^7.1.1",
+    "aws-sdk": "^2.4.3",
+    "stream": "0.0.2"
+  }
+}
