@@ -1,6 +1,6 @@
 {
   "name": "elasticmochareporter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Send mocha test results to elasticsearch",
   "main": "elasticmochareporter.js",
   "scripts": {
